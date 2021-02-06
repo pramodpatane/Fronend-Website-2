@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{width: 800px;}
+.header{
+    background-image: url('../assets/TopBImage.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 45px 0px;
+    background-position: fixed;
+}
+
+.header h3{
+    color: rgb(216, 181, 90);
+    padding: 30px 0px 20px 0px;
+}
+
+.header h2{ color: white; }
+.header .graph-img{padding: 20px 0px;}
+
+@media only screen and (min-width: 0px) and (max-width: 770px){
+    .header .graph-img{
+        text-align: center;
+    }
+}
+.header .btn{
+    width: 50%;
+    margin: 48px 0px 38px 0px;
+    color: white;
+    background-color: #d7b559;
+    text-transform: uppercase;
+    padding: 16px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.header .info{
+    color: white;
+    font-size: 22px;
+}
+.header .warning{
+    color: rgb(184, 175, 175);
+    font-size: 20px;
+}
+.header i{color: rgb(184, 175, 175);}
+
+.header-end{
+    width: 100%;
+    background: black;
+    color: white;
+    text-align: center;
+}
+.header-end p{
+    padding: 40px 50px;
+    font-size: 22px;
+}
+.section-1{ 
+    background-image: url('../assets/BG_Dollars.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 36px;
+}
+
+.section-1 h3{text-align: center;}
+.section-1 .column-1{background-color: white; padding: 36px;}
+.section-1 .column-1 ul{list-style-type: none}
+.section-1 .column-1 ul li{ font-size: 22px; }
+.section-1 .column-2{padding: 36px;}
+.outer .left{ width: 60%; }
+.left, .right img{float: left;}
+.section-1 .column-2 p{font-size: 22px;}
+.column-2 .last-info{clear: both;}
+
+
+.section-2{
+    background: #F1F4F8; 
+    text-align: center; 
+    padding: 45px 0px;
+}
+
+.section-2 h2{
+    color: rgb(216, 181, 90); 
+    font-size: 36px;
+}
+
+.section-2 h1{color: rgb(3, 90, 117);}
+.section-2 .info{font-size: 22px;}
+.section-2 .user{font-size: 20px;}
+.section-2 .card{border-bottom: 5px solid rgb(216, 181, 90);}
+
+@media only screen and  (max-width: 1202px){
+    .section-2 .card{
+       overflow: hidden;
+    }
+}
+
+.section-2 .div1 p{font-size: 22px;}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0px;
+    
+}
+.footer .imp{ color: rgb(118, 118, 118); }
+
+.warning{
+    text-align: center; 
+    bottom: 0;
+    width: 100%;
+    background: black;
+    font-size: 20px;
+    color: white;
+    position: fixed;
+    padding: 20px 0px;
+}
+.footer .footer-end{color: white;font-size: 20px;}
+
+.footer .footer-end a{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+} 
+
+.footer .links ul{list-style: none; padding-bottom: 75px;}
+.footer .links ul li{ font-size: 22px; display: inline; padding: 50px;}
+
+.footer .links ul li a{color: white;}
+.footer .links ul li a:first-child{text-decoration: none;}
+.footer .footer-end a:first-child{text-decoration: none;}
